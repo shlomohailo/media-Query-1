@@ -1,0 +1,40 @@
+#photo {
+    width: 100px;
+    height: 100px;
+}
+/* צרו דיב עם רקע כחול במצב מסך גדול ורקע אדום במצב מסך קטן - מדיה ב HTML */
+#div1 {
+    background-color:blue ;
+   
+}
+/* צרו דיב עם טקסט ורקע ירוק, במצב מסך גדול הטקסט לבן ובמצב מסך קטן הוא צהוב - מדיה ב HTML */
+#div2 {
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+/* <!-- צרו דיב עם רקע של תמונת הרים במצב מסך גדול ורקע של תמונת יער במצב מסך קטן - מדיה ב HTML --> */
+#div3 {
+    background: url(download.jfif);
+    width: 100px;
+    height: 100px;
+}
+/* צרו דיב עם רקע כחול, במצב מסך גדול הוא עגול ובמצב מסך קטן הוא מרובע - מדיה ב HTML */
+#div4 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+}
+/* צרו תמונה במצב מסך גדול עם פילטר blur ובמצב מסך קטן עם פילטר של gray - מדיה ב HTML	 */
+#photo2
+{
+    filter: blur(2px);
+}
+/* צרו תפריט עם לינקים שבמסך גדול, הלינקים מסודרים בשורה (מימין לשמאל) ובמסך קטן הם מסודרים בעמודה (מלמעלה למטה) */
+#div5  {
+
+    display: flex;direction: rtl;
+}
